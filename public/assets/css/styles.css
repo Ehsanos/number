@@ -1,0 +1,110 @@
+@media (min-width: 1300px) {
+  .main-page {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+
+.nav-style {
+  background-color: #a01e1e;
+}
+
+.navbar-brand {
+  width: 60px;
+  height: 50px;
+  object-fit: cover;
+}
+
+div {
+}
+
+.server-card {
+  width: 110px;
+  height: 60px;
+  background-color: #a01e1e;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  transition: 0.5s ease;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.indictor {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 4px;
+  top: 7px;
+}
+
+.flags {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.search {
+  border: 1px solid gainsboro;
+  display: inline-flex;
+  border-radius: 9px;
+}
+
+.product-img {
+  height: 99px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.tilte {
+  color: var(--bs-indigo);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.sub-title {
+  color: var(--bs-gray-600);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+div {
+}
+
+.server-card:hover {
+  transform: scale(1.1);
+}
+
+.flags-div:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.flags-div {
+  transition: 0.5s ease;
+  margin-left: 19px;
+}
+
+@media (min-width: 300px) {
+  .main-server-section {
+  }
+}
+
+.register-photo {
+}
+
+.form-container {
+  background-color: rgba(0,0,0, 0.35);
+}
+
+.table-style {
+  background-color: #8c1e1e;
+  color: white;
+}
+
